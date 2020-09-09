@@ -1,0 +1,174 @@
+Index
+body, html {
+	height: 100%;
+	margin: 0;
+	font-size: 15vw;
+	font-family: "Almendra SC";
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 28px;
+	color: #85929E;
+}
+.texthuv, .bord1 {
+	width: 80%;
+	margin: 0 auto;
+	opacity: 0.7;
+}
+.texthuv {
+	text-align: center;
+	color: #212F3C;
+	text-transform: uppercase;
+}
+.titlehuv1 {
+	position: relative;
+	width: 76%;
+	height: 10%;
+	text-align: center;
+	background-color:#85929E;
+	color: white;
+	padding: 2%;
+	margin:0 auto;
+	margin-top: -12%;
+	opacity: 0.8;
+	margin-bottom: 10%;
+}
+article {
+	display: block;
+	text-align: center;
+	margin-right: 25%;
+	margin-left: 10%;
+	height: 100px;
+}
+}
+.linkm {
+	text-align: left;
+	margin: 0 auto;
+}
+aside {
+	float: right;
+	width: 15%;
+	height: 32%;
+	margin-right: 15%;
+	margin-top: -0%;
+}
+.sect1 {
+	clear: none;
+	margin-left: 10%;
+	text-align: center;
+	margin-right: 25%;
+}
+.link1bild:hover {
+	box-shadow: 0 0 4px 2px #85929E;
+
+}
+.link1bild {
+
+	width: 75%;
+	height: 100%;
+}
+ul {
+	list-style-type: none;
+}
+
+Menyn
+html {
+	display: block;
+}
+head {
+	display: none;
+}
+.parallax {
+	background-image: url("pics/beer1.jpg");
+	min-height:800px;
+
+}
+.parallax {
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.span1 {
+
+	color: black;
+	opacity: 0.9;
+	padding: 10px;
+	padding-left:100px;
+	padding-right: 100px;
+}
+.text1 {
+	position: absolute;
+}
+ol {
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	background-color: #85929E;
+	opacity: .8;
+}
+.title1 .text1{
+	background-color: red;
+	color: #000;
+	padding: 30px;
+}
+div {
+	display: block;
+}
+.light1 {
+	background-color: #f4f4f4;
+	color: #fff;
+}
+
+section {
+	display: block;
+}
+
+p {
+	font-size: 15px;
+
+	text-align: left;
+	margin: 0 auto;
+	margin-right: 15%;
+	margin-left: 12%;
+}
+h2 {
+	display: block;
+	font-size: 25px;
+	text-align: left;
+	margin-left: 12%;
+	margin-right: 15%;
+
+}
+.h22 {
+	display: block;
+	font-size: 25px;
+	text-align: left;
+	margin-left: 12%;
+	margin-right: 15%;
+}
+
+footer .kontakt{
+	text-align: center;
+	color:#85929E;
+	opacity: 0.8;
+	margin-left: 17%;
+	margin-right: 25%;
+	width: 70%;
+	margin-top: 45%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+.texthuv {
+	font-size: 20px;
+	padding-bottom: 2%;
+	color: #212F3C;
+	opacity: 1.0;
+}
+.titlehuv1 {
+	background-color: transparent;
+	}
+}
